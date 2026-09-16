@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+   
+    margin: 0px ;
+    padding:  0px;
+    
+    width: 100%;
+  
+}
+ .navlist{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+  
+    
+ }
+ .navlist li{
+   list-style: none;
+ }
+ .navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+ }
+.left-container, .right-container{
+    height: 100vh;
+    float: left;
+    display: flex;
+    align-items: center;
+ }
+.left-container{
+     background-color: #323534;
+     width: 70%;
+     padding: 20px;
+ }
+.right-container{
+    background-color: #68b1b1;
+    width: 30%;
+ }
+ .icons fa-brands{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 10px;
+     
+ }
+ .icons{
+    display: flex;
+   flex-direction: column;
+    gap: 2rem;
+    margin: 20px ;
+    padding: 10px;
+    line-height: 1.5rem;
+    position:relative
+ }
+ .content{
+    margin-left: 4rem;
+ }
+ .content h1{
+    color: #fff;  
+    font-size: 1rem;
+    margin-bottom: 1rem;
+ }
+ .content h2{
+    font-size: 3rem;
+    color:#68b1b1
+  
+ }
+ .content span{
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .content p{
+    color: #030303;
+    font-size: 1rem;
+   margin: 1rem 0px 3rem 0px;
+    max-width: 35rem;
+    line-height: 1.5rem;
+ }
+ .btn{
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0.3rem;
+ }
+ :hover.btn{
+    background-color: #020202;
+    color: #68b1b1;
+    border: 1px solid #68b1b1;
+ }
+ .icons .fa-brands:hover{
+    coursor: pointer;
+    background: linear-gradient(#fff, #68b1b1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0px;
+     
+ }
+ .desgin .circle{
+aspect-ratio: 1;
+position: absolute;
+border-radius: 50%;
+top: 50%;
+left: 70%;
+transform: translate(-50%, -50%);
+
+ }
+.circle:nth-child(1){
+background: red;
+width: 38rem;
+background: linear-gradient(90deg,transparent 50%, #323534 50%);
+}
+
+ 
+.circle:nth-child(2){
+background: #323435;
+width: 30em;
+background-image: url("profile.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+ }
+ 
