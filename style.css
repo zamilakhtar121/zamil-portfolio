@@ -344,7 +344,8 @@ body {
 
         min-height: 100vh;
 
-        padding: 140px 20px 50px;
+        /* Extra top space for the profile photo */
+        padding: 390px 20px 50px;
 
         display: flex;
         flex-direction: column;
@@ -411,10 +412,19 @@ body {
     }
 
 
-    /* IMAGE */
+    /* IMAGE - MOBILE: PHOTO ABOVE SOCIAL ICONS */
+
+    .desgin {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        height: 240px;
+        z-index: 2;
+    }
 
     .desgin .circle {
-        top: 80%;
+        top: 120px;
         left: 50%;
     }
 
@@ -445,7 +455,7 @@ body {
     }
 
     .left-container {
-        padding: 130px 18px 40px;
+        padding: 370px 18px 40px;
     }
 
     .content h1 {
@@ -470,8 +480,12 @@ body {
         font-size: 12px;
     }
 
+    .desgin {
+        top: 115px;
+    }
+
     .desgin .circle {
-        top: 82%;
+        top: 110px;
     }
 
     .circle:nth-child(1) {
